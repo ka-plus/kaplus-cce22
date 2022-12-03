@@ -1,0 +1,52 @@
+.reveal section .vic-red {
+    color: #880000;
+}
+.reveal section .vic-cyan {
+    color: #AAFFEE;
+}
+.reveal section .vic-purple {
+    color: #CC44CC;
+}
+.reveal section .vic-green {
+    color: #00CC55;
+}
+.reveal section .vic-blue {
+    color: #0000AA;
+}
+.reveal section .vic-yellow {
+    color: #EEEE77;
+}
+.reveal section .vic-orange {
+    color: #DD8855;
+}
+.reveal section .vic-brown {
+    color: #664400;
+}
+.reveal section .vic-lightred {
+    color: #FF7777'
+}
+.reveal section .vic-darkgrey {
+    color: #333333;
+}
+.reveal section .vic-grey {
+    color: #777777;
+}
+.reveal section .vic-lightgreen {
+    color: #AAFF66;
+}
+.reveal section .vic-lightblue {
+    color: #0088FF;
+}
+.reveal section .vic-lightgrey {
+    color: #BBBBBB;
+}
+
+.reveal section .source {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.reveal section .gap-1 {
+    gap: 2rem;
+}

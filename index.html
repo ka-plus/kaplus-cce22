@@ -4,11 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Komoda&Amiga+</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +17,53 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown data-separator-vertical="^--$">
+					<script type="text/template">
+						![Logo](img/logo.png)
+
+						### Komoda & Amiga +
+
+						Commodore Central Europe, December, 2022<!-- .element: class="vic-yellow"-->
+						---
+						<!-- .slide: data-background-image="img/gielda.jpg"-->
+						<div class="source">
+							Source: <a href="https://www.wykop.pl/wpis/59146355/mircy-gielda-komputerowa-za-stodola-targowisko-tak/">
+								https://www.wykop.pl/wpis/59146355/mircy-gielda-komputerowa-za-stodola-targowisko-tak/</a>
+						</div>
+						--
+						<!-- .slide: data-background-image="img/gielda-2.webp"-->
+						<div class="source">
+							Source: <a href="https://www.computerworld.pl/news/Poczatki-branzy-IT-jak-to-bylo-20-lat-temu,352180.html">
+								https://www.computerworld.pl/news/Poczatki-branzy-IT-jak-to-bylo-20-lat-temu,352180.html</a>
+						</div>
+						---
+						![Zines](img/zines.jpg)
+
+						<div class="source">
+							Source: <a href="http://retrospekcja.net.pl/2016/10/10/inwentaryzacja-czasopism/">
+								http://retrospekcja.net.pl/2016/10/10/inwentaryzacja-czasopism/</a>
+						</div>
+						--
+						<div class="r-hstack gap-1">
+							<img src="img/ca.jpg" alt="ca" height="500">
+							<div>
+								<ul>
+									<li class="vic-yellow">46 issues (1992-1995)</li>
+									<li class="vic-lightgrey">distributed in Poland</li>
+									<li class="vic-lightblue">print run ~70000 each month</li>
+									<li class="vic-orange">hardware, software, games, programming</li>
+									<li class="vic-green">also included tape or disk</li>
+								</ul>
+							</div>
+						</div>
+						---
+						<div class="r-hstack gap-1">
+							<img src="img/ca-fan.png" alt="C&A Fan">
+							<img src="img/ca-games.png" alt="C&A Games">
+							<img src="img/komoda.png" alt="Komoda">
+						</div>
+					</script>
+				</section>
 			</div>
 		</div>
 
@@ -31,7 +77,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				width: 1200,
+				slideNumber: "c/t",
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
