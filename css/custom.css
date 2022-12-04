@@ -23,7 +23,7 @@
     color: #664400;
 }
 .reveal section .vic-lightred {
-    color: #FF7777'
+    color: #FF7777;
 }
 .reveal section .vic-darkgrey {
     color: #333333;
@@ -49,4 +49,11 @@
 }
 .reveal section .gap-1 {
     gap: 2rem;
+}
+
+.reveal section img.fit-50 {
+    height: 50vh;
+}
+.reveal section img.fit-60 {
+    height: 60vh;
 }
