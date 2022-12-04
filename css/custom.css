@@ -41,12 +41,24 @@
     color: #BBBBBB;
 }
 
+.reveal section .dim-06 {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.reveal section .dim-08 {
+    background-color: rgba(0,0,0,0.8);
+}
+
 .reveal section .source {
-    background-color: rgba(0,0,0,0.5);
     border-radius: 1rem;
     padding: 1rem;
     font-size: 1.5rem;
 }
+.reveal section .overlay {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
 .reveal section .gap-1 {
     gap: 2rem;
 }
