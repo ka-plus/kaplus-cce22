@@ -44,7 +44,6 @@
 .reveal section .dim-06 {
     background-color: rgba(0,0,0,0.6);
 }
-
 .reveal section .dim-08 {
     background-color: rgba(0,0,0,0.8);
 }
@@ -63,6 +62,9 @@
     gap: 2rem;
 }
 
+.reveal section img.fit-40 {
+    height: 40vh;
+}
 .reveal section img.fit-50 {
     height: 50vh;
 }
