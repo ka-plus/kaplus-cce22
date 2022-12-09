@@ -71,3 +71,11 @@
 .reveal section img.fit-60 {
     height: 60vh;
 }
+
+.reveal section img.logo {
+    height: 36px;
+    margin: 0 8px;
+}
+.reveal section ul.no-ticks {
+    list-style: none;
+}
